@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Para Ti 💖</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Cursor personalizado -->
+<div class="cursor-heart" id="cursorHeart">💖</div>
+
+<!-- Canvas de partículas -->
+<canvas id="canvas"></canvas>
+
+<!-- Pantalla de bienvenida -->
+<div class="pantalla-inicio" id="pantallaInicio">
+  <div class="sobre" id="sobre">
+    <div class="tapa"></div>
+    <div class="cuerpo">
+      <span class="corazon-sobre">💌</span>
+    </div>
+  </div>
+  <p class="texto-abrir">Toca el sobre para abrir</p>
+</div>
+
+<!-- Contenido principal -->
+<main id="contenido">
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1 class="titulo-neon" id="titulo"></h1>
+    <p class="subtitulo">Una carta digital hecha con el corazón</p>
+
+    <div class="contador" id="contador">
+      <div class="bloque"><span id="anos">0</span><small>Años</small></div>
+      <div class="bloque"><span id="dias">0</span><small>Días</small></div>
+      <div class="bloque"><span id="horas">0</span><small>Horas</small></div>
+      <div class="bloque"><span id="minutos">0</span><small>Minutos</small></div>
+      <div class="bloque"><span id="segundos">0</span><small>Segundos</small></div>
+    </div>
+    <p class="frase-contador">juntos y contando 💕</p>
+  </section>
+
+  <!-- MENSAJE -->
+  <section class="seccion mensaje-seccion">
+    <h2 class="titulo-seccion">💌 Mi mensaje para ti</h2>
+    <div class="carta">
+      <p id="mensajeEscrito"></p><span class="cursor-txt">|</span>
+    </div>
+  </section>
+
+  <!-- FRASES ROTATIVAS -->
+  <section class="seccion frases-seccion">
+    <div class="frase-rotativa" id="fraseRotativa">Cargando...</div>
+  </section>
+
+  <!-- GALERÍA -->
+  <section class="seccion">
+    <h2 class="titulo-seccion">📸 Nuestros recuerdos</h2>
+    <div class="galeria" id="galeria"></div>
+  </section>
+
+  <!-- VIDEOS -->
+  <section class="seccion">
+    <h2 class="titulo-seccion">🎥 Nuestros momentos</h2>
+    <div class="videos" id="videos"></div>
+  </section>
+
+  <!-- BOTÓN SORPRESA -->
+  <section class="seccion sorpresa">
+    <h2 class="titulo-seccion">🎁 Sorpresa</h2>
+    <button class="btn-sorpresa" onclick="lluviaCorazones()">Presióname 💘</button>
+  </section>
+
+  <!-- CARTA FINAL -->
+  <section class="seccion">
+    <h2 class="titulo-seccion">💖 Carta final</h2>
+    <div class="carta-final" id="cartaFinal">
+      <div class="sello">💗</div>
+      <h3>Para ti, mi amor</h3>
+      <p id="cartaTexto"></p>
+      <p class="firma">Con todo mi corazón,<br><span id="firmaNombre"></span></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Hecho con 💖 para ti · <span id="anio"></span></p>
+  </footer>
+</main>
+
+<!-- Reproductor de música -->
+<div class="player" id="player">
+  <button id="btnMusica">▶</button>
+  <span>Nuestra canción</span>
+  <audio id="audio" loop></audio>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
