@@ -3,20 +3,20 @@
    ============================================ */
 const CONFIG = {
   nombre: "Mi Amor",
-  firmaNombre: "Tu Nombre",
-  fechaInicio: "2022-02-14",           // YYYY-MM-DD
+  firmaNombre: "Edward Valle",
+  fechaInicio: "2022-06-01",           // YYYY-MM-DD
   titulo: "Feliz Día de Amor y Amistad",
   mensaje:
     "Eres la persona más especial de mi vida. Cada día a tu lado es un regalo, y no hay momento en que no agradezca tenerte. Gracias por existir, por tu amor, por tu paciencia y por hacer de lo cotidiano algo mágico. Te amo hoy, mañana y siempre. 💕",
 
   // 👇 FOTOS — pon las URLs aquí
   fotos: [
-    { url: "https://picsum.photos/400/400?random=1", pie: "Nuestro primer día" },
-    { url: "https://picsum.photos/400/400?random=2", pie: "Esa sonrisa" },
-    { url: "https://picsum.photos/400/400?random=3", pie: "Momento favorito" },
-    { url: "https://picsum.photos/400/400?random=4", pie: "Contigo siempre" },
-    { url: "https://picsum.photos/400/400?random=5", pie: "Mi lugar seguro" },
-    { url: "https://picsum.photos/400/400?random=6", pie: "Te amo" },
+    { url: "https://cdn.shopify.com/s/files/1/0657/8906/7307/files/IMG-20230122-WA0001.jpg?v=1789923454", pie: "Amor mio" },
+    { url: "https://cdn.shopify.com/s/files/1/0657/8906/7307/files/IMG_20230703_143003_737.jpg?v=1789923461", pie: "Esa sonrisa" },
+    { url: "https://cdn.shopify.com/s/files/1/0657/8906/7307/files/IMG-20230123-WA0033.jpg?v=1789923454", pie: "Momento favorito" },
+    { url: "https://cdn.shopify.com/s/files/1/0657/8906/7307/files/IMG_20251224_220158_252_1.jpg?v=1789923461", pie: "Contigo siempre" },
+    { url: "https://cdn.shopify.com/s/files/1/0657/8906/7307/files/IMG_20231203_020207_835.jpg?v=1789923462", pie: "Mi lugar seguro" },
+    { url: "https://cdn.shopify.com/s/files/1/0657/8906/7307/files/IMG_20230619_174016_873.jpg?v=1789923584", pie: "Te amo" },
   ],
 
   // 👇 VIDEOS — mp4 directo o URL de embed de YouTube
