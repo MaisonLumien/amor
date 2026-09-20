@@ -21,12 +21,12 @@ const CONFIG = {
 
   // 👇 VIDEOS — mp4 directo o URL de embed de YouTube
   videos: [
-    "https://www.w3schools.com/html/mov_bbb.mp4",
+    "https://youtube.com/shorts/LgmPuGHtgCs?feature=shared",
     // "https://www.youtube.com/embed/VIDEO_ID",
   ],
 
   // 👇 Canción de fondo
-  cancion: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+  cancion: "https://www.youtube.com/watch?v=N-RxuIn3SRs&list=RDN-RxuIn3SRs&start_radio=1",
 
   frases: [
     "Cada día a tu lado es mi día favorito.",
