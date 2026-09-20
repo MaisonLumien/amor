@@ -26,7 +26,7 @@ const CONFIG = {
   ],
 
   // 👇 Canción de fondo
-  cancion: "https://www.youtube.com/watch?v=N-RxuIn3SRs&list=RDN-RxuIn3SRs&start_radio=1",
+  cancion: "https://youtu.be/N-RxuIn3SRs?si=hCnKwVkj8SLtQNsR",
 
   frases: [
     "Cada día a tu lado es mi día favorito.",
